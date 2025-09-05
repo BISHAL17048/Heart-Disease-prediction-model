@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>❤️ Heart Disease Prediction</title>
     <style>
         body { font-family: Arial, sans-serif; background: #f0f2f5; text-align: center; padding: 20px; }
@@ -17,7 +18,8 @@
     <h1>❤️ Heart Disease Prediction</h1>
     <form action="/predict" method="post">
         <input type="number" name="age" placeholder="Age" required><br>
-        <select name="sex">
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex">
             <option value="1">Male</option>
             <option value="0">Female</option>
         </select><br>
@@ -35,6 +37,11 @@
         <button type="submit">🔍 Predict</button>
     </form>
 
+    {% if prediction_text %}
+        <div class="result">{{ prediction_text }}</div>
+    {% endif %}
+</body>
+</html>
     {% if prediction_text %}
         <div class="result">{{ prediction_text }}</div>
     {% endif %}
