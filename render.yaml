@@ -1,0 +1,10 @@
+services:
+  # A web service for our Flask application.
+  - type: web
+    name: heart-disease-predictor
+    env: python # The runtime environment
+    plan: free # The instance type (free tier is great for starting)
+    # Command to build the service (install dependencies)
+    buildCommand: "pip install -r requirements.txt"
+    # Command to start the service (run the app)
+    startCommand: "gunicorn --workers 4 --bind 0.0.0.0:$PORT app:app"

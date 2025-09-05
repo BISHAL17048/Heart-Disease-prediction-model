@@ -1,0 +1,36 @@
+{
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "numeric": [
+    "age",
+    "sex",
+    "trestbps",
+    "chol",
+    "fbs",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "ca"
+  ],
+  "categorical": [
+    "cp",
+    "restecg",
+    "slope",
+    "thal"
+  ],
+  "selected_model": "RandomForest",
+  "cv_score": 0.9985565476190477
+}
