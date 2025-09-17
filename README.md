@@ -2,7 +2,7 @@
 
 Live demo: **[https://heart-diesease-prediction.onrender.com](https://heart-diesease-prediction.onrender.com)**
 
-> A simple web application that predicts the likelihood of heart disease based on user input. The app provides an interactive UI for entering health parameters and returns a prediction along with a short explanation.
+> A simple web application that predicts the likelihood of heart disease based on user input. The app provides an interactive UI for entering health parameters and returns a prediction along with a Pie Chart.
 
 ---
 
