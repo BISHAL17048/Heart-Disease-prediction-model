@@ -9,6 +9,8 @@ Live demo: **[https://heart-diesease-prediction.onrender.com](https://heart-dies
 ## Demo
 
 Open the live application here: [https://heart-diesease-prediction.onrender.com](https://heart-diesease-prediction.onrender.com)
+Dataset: [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
+
 
 ---
 
