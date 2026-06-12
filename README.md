@@ -14,6 +14,12 @@ Dataset: [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data
 
 ---
 
+---
+
+## Dataset
+Dataset: [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
+---
+
 ## Features
 
 * Interactive form to enter patient health metrics (age, sex, blood pressure, cholesterol, etc.).
